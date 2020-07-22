@@ -1,0 +1,86 @@
+.divStyle {
+    height: 600px;
+    width: 900px;
+    position: absolute;
+    top: 60px;
+    left: 300px;
+    background-color: #a5d6a7;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1%;
+}
+
+.rowStyle {
+    height: 30px;
+    width: 900px;
+    display: flex;
+}
+
+.cellStyle {
+    height: 30px;
+    width: 30px;
+}
+
+.wall {
+    background-image: url("./tree.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.startStyle {
+    position: absolute;
+    left: 150px;
+    height: 80px;
+    width: 80px;
+    bottom: 100px;
+    background-image: url('saveLives.jpg');
+    border-radius: 100%;
+}
+
+
+.health {
+    height: 30px;
+    width: 30px;
+    background-image: url("./health.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.house {
+    height: 30px;
+    width: 30px;
+    background-image: url("./house.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.wash {
+    background-image: url('https://media0.giphy.com/media/idShevOa24HzYTgz06/giphy.gif?cid=ecf05e472c8f9d58074872d2a25e6a3d1338ea6e5f8d5ff2&rid=giphy.gif');
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    border-radius: 50px;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-45deg, #387002, #5a9428, #26c6da, #0095a8);
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+
